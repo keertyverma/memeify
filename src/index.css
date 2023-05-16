@@ -15,6 +15,7 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
+/* Header */
 .header {
   display: flex;
   align-items: center;
@@ -33,4 +34,25 @@ body {
   font-size: 2rem;
   font-weight: 700;
   color: #ffffff;
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  color: #614124;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 760px) {
+  .header {
+    justify-content: center;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
 }
